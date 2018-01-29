@@ -1,0 +1,104 @@
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ script grep.dat
+Script started, file is grep.dat
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/grep -d -d -d
+
+Sorry, -d -d -d was not valid input for this version of grep
+Valid options are: grep <string> <filename>
+
+	string is literal, only exact string matches, no wildcards
+	string must contained within a line,
+		it will be ignored if text is wraped to next line
+	filename must be valid
+	-d was not found in -d
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/grep grep grep.c
+     5:     Purpose:  This program replicates the grep utility in Unix based systems
+     6:     Usage:   ./grep <string><file>
+    30:   printf(" was not valid input for this version of grep\e[m");
+    31:   printf("\n\e[mValid options are: grep");
+    50:             printf("\n\e[mValid options are: grep");
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/grep i grep.c
+     2:     File:     find.c
+     3:     Author:   Corwin Diamond
+     5:     Purpose:  This program replicates the grep utility in Unix based systems
+     6:     Usage:   ./grep <string><file>
+     8:     Code overview:
+     9:               Ensures goodish input, otherwise it displayBadInputMessage
+    10:               for each line in file
+    11:                 if string_input found
+    12:                   display line with each string_input highlighted
+    14:                 if string_input not found
+    17: #define MAX_LINE_SIZE 1024
+    18: #include <stdio.h>
+    19: #include <stdlib.h>
+    20: #include <string.h>
+    21: #include <errno.h>
+    24: //display message for bad inpu, return type void
+    25: void displayBadInputMessage(int argv, char * argc []){
+    26:   printf("\n\e[31mSorry,");
+    27:   for(long int i = 1; i < argv; i++){
+    28:     printf(" %s", argc[i]);
+    30:   printf(" was not valid input for this version of grep\e[m");
+    31:   printf("\n\e[mValid options are: grep");
+    32:   printf("\e[33m <string> <filename>\e[m\n");
+    33:   printf("\n\tstring is literal, only exact string matches, no wildcards");
+    34:   printf("\n\tstring must contained within a line,");
+    35:   printf("\n\t\tit will be ignored if text is wraped to next line");
+    36:   printf("\n\tfilename must be valid");
+    37:   printf("\n");
+    40: // open file filename and return pointer
+    41: FILE* openfile(const char * file_name){
+    43:   fptr = fopen(file_name, "r");
+    45:   if(fptr == NULL){
+    46:     fprintf(stderr,"\e[31mERROR:\e[m Unable to open file: ");
+    47:     fprintf(stderr, "\e[33m%s\n\e[m", file_name);
+    48:     fprintf(stderr, "\n\tfile() error on %s: %s\n", file_name,
+    50:             printf("\n\e[mValid options are: grep");
+    51:             printf("\e[33m <string> <filename>\e[m\n");
+    52:             printf("\n\tstring is literal, only exact string matches,");
+    53:             printf(" no wildcards");
+    54:             printf("\n\tstring must contained within a line");
+    55:             printf("\n\t\tit will be ignored if text is wraped to next line");
+    56:             printf("\n\t\e[31mfilename must be valid\e[m");
+    57:             printf("\n");
+    63: int main(int argv, char * argc []){
+    64:   int error = 0, string_found = 0;
+    65:   // int EOF_flag = 0;
+    66:   long long unsigned int line_number = 1;
+    67:   char curent_line[MAX_LINE_SIZE];
+    68:   char * string_input = argc[1];
+    70:   if(argv != 3){ //if wrong number of inputs
+    71:     displayBadInputMessage(argv, argc);
+    74:   } else { //possibly good input
+    75:     FILE * fptr = openfile(argc[2]);
+    76:     if(fptr != NULL){    //if valid file
+    78:       //while can get next line
+    79:       while(fgets(curent_line, MAX_LINE_SIZE, fptr )!=NULL){
+    81:         // if string_input is in curent_line
+    82:         if(strstr(curent_line, string_input)!= NULL) {
+    84:           //print line number with color...simple code would print whole line
+    85:           printf("\e[33m%6llu: \e[m", line_number);
+    87:           //not simple code highlights string
+    88:           int i=0, j=0, flag=0; //flag = 1+ when printing substring
+    89:           string_found = 1;
+    91:           //iterate accross line from file
+    92:           for(i = 0; i < strlen(curent_line); i++ ){
+    94:             //if possible start of string_input substring in curent_line
+    95:             if(curent_line[i] == string_input[0]){
+    96:               //check for rest of substring
+    97:               for(j = 0; j < strlen(string_input); j++){
+    99:                 if((int)curent_line[i + j] == (int)string_input[j])
+   101:                   if(j+1 == strlen(string_input)){ //if string matched
+   103:                     flag = strlen(string_input);
+   108:             if(flag){
+   109:               printf("\e[31m");
+   112:             printf("%c\e[m", curent_line[i]);
+   115:         line_number++;
+   117:     }// if(fptr != NULL) valid file
+   118:   }  // else  --> goodish input
+   119:   if(!string_found)
+   120:     printf("\t\e[33m%s\e[m was not found in \e[33m%s\e[m\n", argc[1], argc[2]);
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/grep insane grep.c
+	insane was not found in grep.c
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ exit
+exit
+Script done, file is grep.dat

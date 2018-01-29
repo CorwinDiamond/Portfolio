@@ -1,0 +1,69 @@
+Script started on Mon 11 Dec 2017 07:21:01 PM CST
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+[31m[12Grm -r bin
+[31m[12Grm *.o
+[32mMADE CLEAN![m
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+[36mbin: [m[12Gmkdir bin
+[33mls.o: [m[12Ggcc -c -Wall ls.c
+[33mfind.o: [m[12Ggcc -c -Wall find.c
+[33mgrep.o: [m[12Ggcc -c -Wall grep.c
+[32mall: [m[12Gcc -Wall ls.o -o bin/ls
+[12Gcc -Wall find.o -o bin/find
+[12Gcc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+[31m[12Grm -r bin
+[31m[12Grm *.o
+[32mMADE CLEAN![m
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+[32mMADE CLEAN![m
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls.o
+[33mls.o: [m[12Ggcc -c -Wall ls.c
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls
+[36mbin: [m[12Gmkdir bin
+[32mls: [m[12Gcc -Wall ls.o -o bin/ls
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make grep
+[33mgrep.o: [m[12Ggcc -c -Wall grep.c
+[32mgrep: [m[12Gcc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+[31m[12Grm -r bin
+[31m[12Grm *.o
+[32mMADE CLEAN![m
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make grep
+[33mgrep.o: [m[12Ggcc -c -Wall grep.c
+[36mbin: [m[12Gmkdir bin
+[32mgrep: [m[12Gcc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+[33mls.o: [m[12Ggcc -c -Wall ls.c
+[33mfind.o: [m[12Ggcc -c -Wall find.c
+[32mall: [m[12Gcc -Wall ls.o -o bin/ls
+[12Gcc -Wall find.o -o bin/find
+[12Gcc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+[31m[12Grm -r bin
+[31m[12Grm *.o
+[32mMADE CLEAN![m
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls.o [K
+[33mls.o: [m[12Ggcc -c -Wall ls.c
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls[K[Kfind.o grep.o
+[33mfind.o: [m[12Ggcc -c -Wall find.c
+[33mgrep.o: [m[12Ggcc -c -Wall grep.c
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+[36mbin: [m[12Gmkdir bin
+[32mall: [m[12Gcc -Wall ls.o -o bin/ls
+[12Gcc -Wall find.o -o bin/find
+[12Gcc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+[32mall: [m[12Gcc -Wall ls.o -o bin/ls
+[12Gcc -Wall find.o -o bin/find
+[12Gcc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+[31m[12Grm -r bin
+[31m[12Grm *.o
+[32mMADE CLEAN![m
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+[32mMADE CLEAN![m
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ exit
+exit
+
+Script done on Mon 11 Dec 2017 07:22:31 PM CST

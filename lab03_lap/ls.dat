@@ -1,0 +1,212 @@
+Script started on Sun 10 Dec 2017 05:30:07 AM CST
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/ls
+[mReadMe.md	[mls.o	[mls.dat	[mmake.dat	[mfind.o	[mgrep.c	[mls.c	[mDocumentation.md	[mmakefile	[m[32m[36mbin	[mfind.c	[mgrep.o	[m
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/ls -a
+[m[32m[36m.	[m[32m[36m..	[mReadMe.md	[mls.o	[mls.dat	[mmake.dat	[mfind.o	[mgrep.c	[mls.c	[mDocumentation.md	[mmakefile	[m[32m[36mbin	[mfind.c	[mgrep.o	[m
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/ls -a -l
+[4;97mPermission[12Gsize b[20Gblocks[27Gblock size[38Glinks[44Gserial[54Guid[64Ggid[78Glast modified[99Gfile
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G14[20G33[27G32768[38G3[44G31524120[54G569156[64G1328160511[78G12.10.2017 05:30:07[99G.
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G23[20G33[27G32768[38G5[44G30414289[54G569156[64G1328160511[78G12.09.2017 16:26:50[99G..
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G12736[20G17[27G32768[38G1[44G31739390[54G569156[64G1328160511[78G12.10.2017 05:22:13[99GReadMe.md
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G7376[20G17[27G32768[38G1[44G32159822[54G569156[64G1328160511[78G12.10.2017 05:29:10[99Gls.o
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G0[20G1[27G32768[38G1[44G32159836[54G569156[64G1328160511[78G12.10.2017 05:30:07[99Gls.dat
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G2441[20G17[27G32768[38G1[44G32159086[54G569156[64G1328160511[78G12.10.2017 05:04:10[99Gmake.dat
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G7064[20G17[27G32768[38G1[44G32159747[54G569156[64G1328160511[78G12.10.2017 05:25:31[99Gfind.o
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G3936[20G17[27G32768[38G1[44G31712830[54G569156[64G1328160511[78G12.10.2017 04:44:09[99Ggrep.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G4771[20G17[27G32768[38G1[44G31524832[54G569156[64G1328160511[78G12.10.2017 05:29:06[99Gls.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G8975[20G17[27G32768[38G1[44G30530867[54G569156[64G1328160511[78G12.10.2017 01:14:01[99GDocumentation.md
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G571[20G17[27G32768[38G1[44G31524126[54G569156[64G1328160511[78G12.10.2017 00:29:43[99Gmakefile
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G5[20G1[27G32768[38G2[44G31738942[54G569156[64G1328160511[78G12.10.2017 05:29:10[99Gbin
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G6183[20G17[27G32768[38G1[44G31525934[54G569156[64G1328160511[78G12.10.2017 04:44:19[99Gfind.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G5368[20G17[27G32768[38G1[44G32159749[54G569156[64G1328160511[78G12.10.2017 05:25:31[99Ggrep.o
+[m
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/ls -a -l[K[K[K[Kl
+[4;97mPermission[12Gsize b[20Gblocks[27Gblock size[38Glinks[44Gserial[54Guid[64Ggid[78Glast modified[99Gfile
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G12736[20G17[27G32768[38G1[44G31739390[54G569156[64G1328160511[78G12.10.2017 05:22:13[99GReadMe.md
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G7376[20G17[27G32768[38G1[44G32159822[54G569156[64G1328160511[78G12.10.2017 05:29:10[99Gls.o
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G0[20G1[27G32768[38G1[44G32159836[54G569156[64G1328160511[78G12.10.2017 05:30:07[99Gls.dat
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G2441[20G17[27G32768[38G1[44G32159086[54G569156[64G1328160511[78G12.10.2017 05:04:10[99Gmake.dat
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G7064[20G17[27G32768[38G1[44G32159747[54G569156[64G1328160511[78G12.10.2017 05:25:31[99Gfind.o
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G3936[20G17[27G32768[38G1[44G31712830[54G569156[64G1328160511[78G12.10.2017 04:44:09[99Ggrep.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G4771[20G17[27G32768[38G1[44G31524832[54G569156[64G1328160511[78G12.10.2017 05:29:06[99Gls.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G8975[20G17[27G32768[38G1[44G30530867[54G569156[64G1328160511[78G12.10.2017 01:14:01[99GDocumentation.md
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G571[20G17[27G32768[38G1[44G31524126[54G569156[64G1328160511[78G12.10.2017 00:29:43[99Gmakefile
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G5[20G1[27G32768[38G2[44G31738942[54G569156[64G1328160511[78G12.10.2017 05:29:10[99Gbin
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G6183[20G17[27G32768[38G1[44G31525934[54G569156[64G1328160511[78G12.10.2017 04:44:19[99Gfind.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G5368[20G17[27G32768[38G1[44G32159749[54G569156[64G1328160511[78G12.10.2017 05:25:31[99Ggrep.o
+[m
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/ls -l -a
+[4;97mPermission[12Gsize b[20Gblocks[27Gblock size[38Glinks[44Gserial[54Guid[64Ggid[78Glast modified[99Gfile
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G14[20G33[27G32768[38G3[44G31524120[54G569156[64G1328160511[78G12.10.2017 05:30:07[99G.
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G23[20G33[27G32768[38G5[44G30414289[54G569156[64G1328160511[78G12.09.2017 16:26:50[99G..
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G12736[20G17[27G32768[38G1[44G31739390[54G569156[64G1328160511[78G12.10.2017 05:22:13[99GReadMe.md
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G7376[20G17[27G32768[38G1[44G32159822[54G569156[64G1328160511[78G12.10.2017 05:29:10[99Gls.o
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G0[20G1[27G32768[38G1[44G32159836[54G569156[64G1328160511[78G12.10.2017 05:30:07[99Gls.dat
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G2441[20G17[27G32768[38G1[44G32159086[54G569156[64G1328160511[78G12.10.2017 05:04:10[99Gmake.dat
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G7064[20G17[27G32768[38G1[44G32159747[54G569156[64G1328160511[78G12.10.2017 05:25:31[99Gfind.o
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G3936[20G17[27G32768[38G1[44G31712830[54G569156[64G1328160511[78G12.10.2017 04:44:09[99Ggrep.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G4771[20G17[27G32768[38G1[44G31524832[54G569156[64G1328160511[78G12.10.2017 05:29:06[99Gls.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G8975[20G17[27G32768[38G1[44G30530867[54G569156[64G1328160511[78G12.10.2017 01:14:01[99GDocumentation.md
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G571[20G17[27G32768[38G1[44G31524126[54G569156[64G1328160511[78G12.10.2017 00:29:43[99Gmakefile
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G5[20G1[27G32768[38G2[44G31738942[54G569156[64G1328160511[78G12.10.2017 05:29:10[99Gbin
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G6183[20G17[27G32768[38G1[44G31525934[54G569156[64G1328160511[78G12.10.2017 04:44:19[99Gfind.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G5368[20G17[27G32768[38G1[44G32159749[54G569156[64G1328160511[78G12.10.2017 05:25:31[99Ggrep.o
+[m
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/ls -l -a[Kl
+
+[mValid options are: ls [33m-l -a[m
+
+	including the -l option includes file stats with output
+	including the -a option includes .* files with the output
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/ls -l -l[Ka -l
+
+[mValid options are: ls [33m-l -a[m
+
+	including the -l option includes file stats with output
+	including the -a option includes .* files with the output
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/ls -l -a -l[K[K[K[K[K[K[Kd
+
+[31mSorry, -d is not an included option for this version of ls[m
+[mValid options are: ls [33m-l -a[m
+
+	including the -l option includes file stats with output
+	including the -a option includes .* files with the output
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/ls -d[K[K[K[K[K[K[K[K[K[K[Kcd /bin[K[K[K
+diamo069@csel-kh4250-49:/ $ /home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap/bin/ls -a -l
+[4;97mPermission[12Gsize b[20Gblocks[27Gblock size[38Glinks[44Gserial[54Guid[64Ggid[78Glast modified[99Gfile
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G16384[20G32[27G4096[38G2[44G11[54G0[64G0[78G09.08.2016 09:57:42[99Glost+found
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G14[44G262145[54G0[64G0[78G09.08.2016 10:47:32[99Gvar
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G2[44G2097250[54G0[64G0[78G08.02.2017 17:00:31[99Glhome
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4200[20G0[27G4096[38G20[44G2[54G0[64G0[78G12.09.2017 23:01:11[99Gdev
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G0[20G0[27G1024[38G56[44G22817[54G0[64G0[78G12.10.2017 03:34:03[99Gsoft
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G2[44G2228225[54G0[64G0[78G09.08.2016 09:58:05[99Gmnt
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G0[20G0[27G1024[38G12[44G20919[54G0[64G0[78G12.10.2017 03:34:04[99Gclasses
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2D-[2Dr[2Dd[12G4096[20G8[27G4096[38G2[44G4344487[54G0[64G0[78G09.08.2016 12:25:45[99G.ssh
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G0[20G0[27G1024[38G12[44G20932[54G0[64G0[78G12.10.2017 03:34:03[99Gproject
+[m[32m[36m[10Gx[2Dw[2Dr[2Dx[2Dw[2Dr[2Dx[2Dw[2Dr[2Dd[12G36864[20G80[27G4096[38G12[44G2[54G0[64G0[78G12.10.2017 05:30:07[99Gtmp
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G3[44G3686856[54G0[64G0[78G09.08.2016 12:08:15[99Gemul
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G3[44G3932161[54G0[64G0[78G09.08.2016 11:44:41[99G.cache
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2D-[2Dr[2Dd[12G0[20G0[27G4096[38G13[44G1[54G0[64G0[78G12.09.2017 12:37:52[99Gsys
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2D-[2Dr[2Dd[12G4096[20G8[27G4096[38G8[44G2112398[54G0[64G0[78G09.08.2016 15:02:03[99Gweb
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G17[44G786433[54G0[64G0[78G01.27.2017 20:31:25[99Gusr
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G0[20G0[27G1024[38G2[44G22809[54G0[64G0[78G12.09.2017 12:38:35[99Ggrades
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G12288[20G24[27G4096[38G2[44G1310721[54G0[64G0[78G11.14.2017 06:49:30[99Gsbin
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2D-[2Dr[2D-[12G221[20G8[27G4096[38G1[44G24571[54G0[64G0[78G09.08.2016 12:03:53[99G.rhosts
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G88[44G1835009[54G0[64G0[78G11.27.2017 20:14:49[99Gmedia
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2D-[2Dr[2Dd[12G4096[20G8[27G4096[38G3[44G2112414[54G0[64G0[78G09.08.2016 15:02:03[99Gsnapshots
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2D-[2Dr[2Dd[12G4096[20G8[27G4096[38G2[44G2106265[54G0[64G0[78G09.08.2016 12:26:46[99G.ssh2
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G0[20G0[27G1024[38G12[44G24773[54G0[64G0[78G12.10.2017 03:34:04[99Gclass
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G2[44G1048577[54G0[64G0[78G06.27.2017 01:41:00[99Glib64
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2D-[2Dr[2Dd[12G0[20G0[27G1024[38G295[44G1[54G0[64G0[78G12.09.2017 12:37:51[99Gproc
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G0[20G0[27G1024[38G3[44G22812[54G0[64G0[78G12.10.2017 05:12:34[99Ghome
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G3[44G2097153[54G0[64G0[78G11.23.2017 00:00:03[99Gboot
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G7103856[20G13880[27G4096[38G1[44G2102345[54G0[64G0[78G10.10.2017 11:19:20[99Gvmlinuz.old
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G12288[20G24[27G4096[38G2[44G3014657[54G0[64G0[78G06.27.2017 01:40:55[99Glibx32
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G2[44G3538945[54G0[64G0[78G09.01.2016 12:37:32[99Gsnap
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G12288[20G24[27G4096[38G204[44G1703937[54G0[64G0[78G11.28.2017 06:28:09[99Getc
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G7104240[20G13880[27G4096[38G1[44G2097365[54G0[64G0[78G11.10.2017 14:41:58[99Gvmlinuz
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G2[44G524289[54G0[64G0[78G09.08.2016 09:58:05[99Gsrv
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2D-[2Dr[2Dd[12G4096[20G8[27G4096[38G7[44G2112400[54G0[64G0[78G09.08.2016 15:02:03[99Gadm
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G3[44G1572865[54G0[64G0[78G09.08.2016 11:56:15[99Gexport
+[m[10G-[2D-[2Dr[2D-[2D-[2Dr[2D-[2Dw[2Dr[2D-[12G45768184[20G89392[27G4096[38G1[44G2097195[54G0[64G0[78G11.14.2017 06:50:45[99Ginitrd.img.old
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G2[44G393217[54G0[64G0[78G11.07.2017 06:08:35[99Gbin
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G40[44G2[54G0[64G0[78G11.21.2017 06:23:21[99G.
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G1400[20G0[27G4096[38G35[44G2[54G0[64G0[78G12.09.2017 23:30:41[99Grun
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G40[44G2[54G0[64G0[78G11.21.2017 06:23:21[99G..
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G7[44G1179649[54G0[64G0[78G09.08.2016 12:23:36[99Gopt
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2D-[2Dr[2Dd[12G4096[20G8[27G4096[38G3[44G2112408[54G0[64G0[78G09.08.2016 15:02:03[99Gcshome
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G8998912[20G15944[27G4096[38G1[44G28147[54G0[64G0[78G11.14.2017 12:38:14[99Gcore
+[m[10G-[2D-[2Dr[2D-[2D-[2Dr[2D-[2Dw[2Dr[2D-[12G45764372[20G89384[27G4096[38G1[44G2123321[54G0[64G0[78G11.21.2017 06:24:20[99Ginitrd.img
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G3[44G3145729[54G0[64G0[78G06.27.2017 01:40:49[99Glib32
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G11[44G4325377[54G0[64G0[78G08.02.2017 14:53:32[99Groot
+[m[32m[36m[10Gx[2D-[2Dr[2Dx[2D-[2Dr[2Dx[2Dw[2Dr[2Dd[12G4096[20G8[27G4096[38G23[44G1966081[54G0[64G0[78G11.28.2017 06:27:32[99Glib
+[m
+diamo069@csel-kh4250-49:/ $ ls -a -l
+total 8168
+drwxr-xr-x  40 root root    4096 Nov 21 06:23 ./
+drwxr-xr-x  40 root root    4096 Nov 21 06:23 ../
+dr-xr-xr-x   7 root root    4096 Sep  8  2016 adm/
+drwxr-xr-x   2 root root    4096 Nov  7 06:08 bin/
+drwxr-xr-x   3 root root    4096 Nov 23 00:00 boot/
+drwx------   3 root root    4096 Sep  8  2016 .cache/
+drwxr-xr-x  12 root root       0 Dec 10 03:34 class/
+drwxr-xr-x  12 root root       0 Dec 10 03:34 classes/
+-rw-------   1 root root 8998912 Nov 14 12:38 core
+dr-xr-xr-x   3 root root    4096 Sep  8  2016 cshome/
+drwxr-xr-x  20 root root    4200 Dec  9 23:01 dev/
+drwxr-xr-x   3 root root    4096 Sep  8  2016 emul/
+drwxr-xr-x 204 root root   12288 Nov 28 06:28 etc/
+drwxr-xr-x   3 root root    4096 Sep  8  2016 export/
+drwxr-xr-x   2 root root       0 Dec  9 12:38 grades/
+drwxr-xr-x   3 root root       0 Dec 10 05:12 home/
+lrwxrwxrwx   1 root root      33 Nov 21 06:23 initrd.img -> boot/initrd.img-4.4.0-101-generic
+lrwxrwxrwx   1 root root      32 Nov  7 06:11 initrd.img.old -> boot/initrd.img-4.4.0-98-generic
+drwxr-xr-x   2 root root    4096 Aug  2 17:00 lhome/
+drwxr-xr-x  23 root root    4096 Nov 28 06:27 lib/
+drwxr-xr-x   3 root root    4096 Jun 27 01:40 lib32/
+drwxr-xr-x   2 root root    4096 Jun 27 01:41 lib64/
+drwxr-xr-x   2 root root   12288 Jun 27 01:40 libx32/
+drwx------   2 root root   16384 Sep  8  2016 lost+found/
+drwxr-xr-x  88 root root    4096 Nov 27 20:14 media/
+drwxr-xr-x   2 root root    4096 Sep  8  2016 mnt/
+drwxr-xr-x   7 root root    4096 Sep  8  2016 opt/
+dr-xr-xr-x 295 root root       0 Dec  9 12:37 proc/
+drwxr-xr-x  12 root root       0 Dec 10 03:34 project/
+-r--------   1 root root     221 Sep  8  2016 .rhosts
+drwx------  11 root root    4096 Aug  2 14:53 root/
+drwxr-xr-x  35 root root    1400 Dec  9 23:30 run/
+drwxr-xr-x   2 root root   12288 Nov 14 06:49 sbin/
+drwxr-xr-x   2 root root    4096 Sep  1  2016 snap/
+dr-xr-xr-x   3 root root    4096 Sep  8  2016 snapshots/
+drwxr-xr-x  56 root root       0 Dec 10 03:34 soft/
+drwxr-xr-x   2 root root    4096 Sep  8  2016 srv/
+dr-x------   2 root root    4096 Sep  8  2016 .ssh/
+dr-x------   2 root root    4096 Sep  8  2016 .ssh2/
+dr-xr-xr-x  13 root root       0 Dec  9 12:37 sys/
+drwxrwxrwt  12 root root   36864 Dec 10 05:30 tmp/
+drwxr-xr-x  17 root root    4096 Jan 27  2017 usr/
+drwxr-xr-x  14 root root    4096 Sep  8  2016 var/
+lrwxrwxrwx   1 root root      30 Nov 21 06:23 vmlinuz -> boot/vmlinuz-4.4.0-101-generic
+lrwxrwxrwx   1 root root      29 Nov  7 06:11 vmlinuz.old -> boot/vmlinuz-4.4.0-98-generic
+dr-xr-xr-x   8 root root    4096 Sep  8  2016 web/
+diamo069@csel-kh4250-49:/ $ cd
+diamo069@csel-kh4250-49:/home/diamo069 $ cd D[K3[K[K[K[Kls
+Desktop/  Documents/  Downloads/  Music/  Pictures/  Public/  README.dotfiles  Templates/  Videos/  www/
+diamo069@csel-kh4250-49:/home/diamo069 $ cd Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap/
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ls -a -l
+total 119
+drwx------ 3 diamo069 CSEL-student    14 Dec 10 05:30 ./
+drwx------ 5 diamo069 CSEL-student    23 Dec  9 16:26 ../
+drwx------ 2 diamo069 CSEL-student     5 Dec 10 05:29 bin/
+-rw------- 1 diamo069 CSEL-student  8975 Dec 10 01:14 Documentation.md
+-rw------- 1 diamo069 CSEL-student  6183 Dec 10 04:44 find.c
+-rw------- 1 diamo069 CSEL-student  7064 Dec 10 05:25 find.o
+-rw------- 1 diamo069 CSEL-student  3936 Dec 10 04:44 grep.c
+-rw------- 1 diamo069 CSEL-student  5368 Dec 10 05:25 grep.o
+-rw------- 1 diamo069 CSEL-student  4771 Dec 10 05:29 ls.c
+-rw------- 1 diamo069 CSEL-student     0 Dec 10 05:30 ls.dat
+-rw------- 1 diamo069 CSEL-student  7376 Dec 10 05:29 ls.o
+-rw------- 1 diamo069 CSEL-student  2441 Dec 10 05:04 make.dat
+-rw------- 1 diamo069 CSEL-student   571 Dec 10 00:29 makefile
+-rw------- 1 diamo069 CSEL-student 12736 Dec 10 05:22 ReadMe.md
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/ls -a -l
+[4;97mPermission[12Gsize b[20Gblocks[27Gblock size[38Glinks[44Gserial[54Guid[64Ggid[78Glast modified[99Gfile
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G14[20G33[27G32768[38G3[44G31524120[54G569156[64G1328160511[78G12.10.2017 05:30:07[99G.
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G23[20G33[27G32768[38G5[44G30414289[54G569156[64G1328160511[78G12.09.2017 16:26:50[99G..
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G12736[20G17[27G32768[38G1[44G31739390[54G569156[64G1328160511[78G12.10.2017 05:22:13[99GReadMe.md
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G7376[20G17[27G32768[38G1[44G32159822[54G569156[64G1328160511[78G12.10.2017 05:29:10[99Gls.o
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G0[20G1[27G32768[38G1[44G32159836[54G569156[64G1328160511[78G12.10.2017 05:30:07[99Gls.dat
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G2441[20G17[27G32768[38G1[44G32159086[54G569156[64G1328160511[78G12.10.2017 05:04:10[99Gmake.dat
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G7064[20G17[27G32768[38G1[44G32159747[54G569156[64G1328160511[78G12.10.2017 05:25:31[99Gfind.o
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G3936[20G17[27G32768[38G1[44G31712830[54G569156[64G1328160511[78G12.10.2017 04:44:09[99Ggrep.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G4771[20G17[27G32768[38G1[44G31524832[54G569156[64G1328160511[78G12.10.2017 05:29:06[99Gls.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G8975[20G17[27G32768[38G1[44G30530867[54G569156[64G1328160511[78G12.10.2017 01:14:01[99GDocumentation.md
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G571[20G17[27G32768[38G1[44G31524126[54G569156[64G1328160511[78G12.10.2017 00:29:43[99Gmakefile
+[m[32m[36m[10G-[2D-[2D-[2D-[2D-[2D-[2Dx[2Dw[2Dr[2Dd[12G5[20G1[27G32768[38G2[44G31738942[54G569156[64G1328160511[78G12.10.2017 05:29:10[99Gbin
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G6183[20G17[27G32768[38G1[44G31525934[54G569156[64G1328160511[78G12.10.2017 04:44:19[99Gfind.c
+[m[10G-[2D-[2D-[2D-[2D-[2D-[2D-[2Dw[2Dr[2D-[12G5368[20G17[27G32768[38G1[44G32159749[54G569156[64G1328160511[78G12.10.2017 05:25:31[99Ggrep.o
+[m
+diamo069@csel-kh4250-49:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ exit
+exit
+
+Script done on Sun 10 Dec 2017 05:34:11 AM CST

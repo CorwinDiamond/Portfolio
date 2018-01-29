@@ -1,0 +1,104 @@
+Script started on Mon 11 Dec 2017 07:24:42 PM CST
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/grep -d -d -d
+
+[31mSorry, -d -d -d was not valid input for this version of grep[m
+[mValid options are: grep[33m <string> <filename>[m
+
+	string is literal, only exact string matches, no wildcards
+	string must contained within a line,
+		it will be ignored if text is wraped to next line
+	filename must be valid
+	[33m-d[m was not found in [33m-d[m
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/grep grep grep.c
+[33m     5: [m [m [m [m [mP[mu[mr[mp[mo[ms[me[m:[m [m [mT[mh[mi[ms[m [mp[mr[mo[mg[mr[ma[mm[m [mr[me[mp[ml[mi[mc[ma[mt[me[ms[m [mt[mh[me[m [m[31mg[m[31mr[m[31me[m[31mp[m [mu[mt[mi[ml[mi[mt[my[m [mi[mn[m [mU[mn[mi[mx[m [mb[ma[ms[me[md[m [ms[my[ms[mt[me[mm[ms[m
+[m[33m     6: [m [m [m [m [mU[ms[ma[mg[me[m:[m [m [m [m.[m/[m[31mg[m[31mr[m[31me[m[31mp[m [m<[ms[mt[mr[mi[mn[mg[m>[m<[mf[mi[ml[me[m>[m
+[m[33m    30: [m [m [mp[mr[mi[mn[mt[mf[m([m"[m [mw[ma[ms[m [mn[mo[mt[m [mv[ma[ml[mi[md[m [mi[mn[mp[mu[mt[m [mf[mo[mr[m [mt[mh[mi[ms[m [mv[me[mr[ms[mi[mo[mn[m [mo[mf[m [m[31mg[m[31mr[m[31me[m[31mp[m\[me[m[[mm[m"[m)[m;[m
+[m[33m    31: [m [m [mp[mr[mi[mn[mt[mf[m([m"[m\[mn[m\[me[m[[mm[mV[ma[ml[mi[md[m [mo[mp[mt[mi[mo[mn[ms[m [ma[mr[me[m:[m [m[31mg[m[31mr[m[31me[m[31mp[m"[m)[m;[m
+[m[33m    50: [m [m [m [m [m [m [m [m [m [m [m [m [mp[mr[mi[mn[mt[mf[m([m"[m\[mn[m\[me[m[[mm[mV[ma[ml[mi[md[m [mo[mp[mt[mi[mo[mn[ms[m [ma[mr[me[m:[m [m[31mg[m[31mr[m[31me[m[31mp[m"[m)[m;[m
+[mdiamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/grep i grep.c
+[33m     2: [m [m [m [m [mF[m[31mi[ml[me[m:[m [m [m [m [m [mf[m[31mi[mn[md[m.[mc[m
+[m[33m     3: [m [m [m [m [mA[mu[mt[mh[mo[mr[m:[m [m [m [mC[mo[mr[mw[m[31mi[mn[m [mD[m[31mi[ma[mm[mo[mn[md[m
+[m[33m     5: [m [m [m [m [mP[mu[mr[mp[mo[ms[me[m:[m [m [mT[mh[m[31mi[ms[m [mp[mr[mo[mg[mr[ma[mm[m [mr[me[mp[ml[m[31mi[mc[ma[mt[me[ms[m [mt[mh[me[m [mg[mr[me[mp[m [mu[mt[m[31mi[ml[m[31mi[mt[my[m [m[31mi[mn[m [mU[mn[m[31mi[mx[m [mb[ma[ms[me[md[m [ms[my[ms[mt[me[mm[ms[m
+[m[33m     6: [m [m [m [m [mU[ms[ma[mg[me[m:[m [m [m [m.[m/[mg[mr[me[mp[m [m<[ms[mt[mr[m[31mi[mn[mg[m>[m<[mf[m[31mi[ml[me[m>[m
+[m[33m     8: [m [m [m [m [mC[mo[md[me[m [mo[mv[me[mr[mv[m[31mi[me[mw[m:[m
+[m[33m     9: [m [m [m [m [m [m [m [m [m [m [m [m [m [m [mE[mn[ms[mu[mr[me[ms[m [mg[mo[mo[md[m[31mi[ms[mh[m [m[31mi[mn[mp[mu[mt[m,[m [mo[mt[mh[me[mr[mw[m[31mi[ms[me[m [m[31mi[mt[m [md[m[31mi[ms[mp[ml[ma[my[mB[ma[md[mI[mn[mp[mu[mt[mM[me[ms[ms[ma[mg[me[m
+[m[33m    10: [m [m [m [m [m [m [m [m [m [m [m [m [m [m [mf[mo[mr[m [me[ma[mc[mh[m [ml[m[31mi[mn[me[m [m[31mi[mn[m [mf[m[31mi[ml[me[m
+[m[33m    11: [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m[31mi[mf[m [ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m [mf[mo[mu[mn[md[m
+[m[33m    12: [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [md[m[31mi[ms[mp[ml[ma[my[m [ml[m[31mi[mn[me[m [mw[m[31mi[mt[mh[m [me[ma[mc[mh[m [ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m [mh[m[31mi[mg[mh[ml[m[31mi[mg[mh[mt[me[md[m
+[m[33m    14: [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m[31mi[mf[m [ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m [mn[mo[mt[m [mf[mo[mu[mn[md[m
+[m[33m    17: [m#[md[me[mf[m[31mi[mn[me[m [mM[mA[mX[m_[mL[mI[mN[mE[m_[mS[mI[mZ[mE[m [m1[m0[m2[m4[m
+[m[33m    18: [m#[m[31mi[mn[mc[ml[mu[md[me[m [m<[ms[mt[md[m[31mi[mo[m.[mh[m>[m
+[m[33m    19: [m#[m[31mi[mn[mc[ml[mu[md[me[m [m<[ms[mt[md[ml[m[31mi[mb[m.[mh[m>[m
+[m[33m    20: [m#[m[31mi[mn[mc[ml[mu[md[me[m [m<[ms[mt[mr[m[31mi[mn[mg[m.[mh[m>[m
+[m[33m    21: [m#[m[31mi[mn[mc[ml[mu[md[me[m [m<[me[mr[mr[mn[mo[m.[mh[m>[m
+[m[33m    24: [m/[m/[md[m[31mi[ms[mp[ml[ma[my[m [mm[me[ms[ms[ma[mg[me[m [mf[mo[mr[m [mb[ma[md[m [m[31mi[mn[mp[mu[m,[m [mr[me[mt[mu[mr[mn[m [mt[my[mp[me[m [mv[mo[m[31mi[md[m
+[m[33m    25: [mv[mo[m[31mi[md[m [md[m[31mi[ms[mp[ml[ma[my[mB[ma[md[mI[mn[mp[mu[mt[mM[me[ms[ms[ma[mg[me[m([m[31mi[mn[mt[m [ma[mr[mg[mv[m,[m [mc[mh[ma[mr[m [m*[m [ma[mr[mg[mc[m [m[[m][m)[m{[m
+[m[33m    26: [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m\[me[m[[m3[m1[mm[mS[mo[mr[mr[my[m,[m"[m)[m;[m
+[m[33m    27: [m [m [mf[mo[mr[m([ml[mo[mn[mg[m [m[31mi[mn[mt[m [m[31mi[m [m=[m [m1[m;[m [m[31mi[m [m<[m [ma[mr[mg[mv[m;[m [m[31mi[m+[m+[m)[m{[m
+[m[33m    28: [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m [m%[ms[m"[m,[m [ma[mr[mg[mc[m[[m[31mi[m][m)[m;[m
+[m[33m    30: [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m [mw[ma[ms[m [mn[mo[mt[m [mv[ma[ml[m[31mi[md[m [m[31mi[mn[mp[mu[mt[m [mf[mo[mr[m [mt[mh[m[31mi[ms[m [mv[me[mr[ms[m[31mi[mo[mn[m [mo[mf[m [mg[mr[me[mp[m\[me[m[[mm[m"[m)[m;[m
+[m[33m    31: [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m\[me[m[[mm[mV[ma[ml[m[31mi[md[m [mo[mp[mt[m[31mi[mo[mn[ms[m [ma[mr[me[m:[m [mg[mr[me[mp[m"[m)[m;[m
+[m[33m    32: [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[me[m[[m3[m3[mm[m [m<[ms[mt[mr[m[31mi[mn[mg[m>[m [m<[mf[m[31mi[ml[me[mn[ma[mm[me[m>[m\[me[m[[mm[m\[mn[m"[m)[m;[m
+[m[33m    33: [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m\[mt[ms[mt[mr[m[31mi[mn[mg[m [m[31mi[ms[m [ml[m[31mi[mt[me[mr[ma[ml[m,[m [mo[mn[ml[my[m [me[mx[ma[mc[mt[m [ms[mt[mr[m[31mi[mn[mg[m [mm[ma[mt[mc[mh[me[ms[m,[m [mn[mo[m [mw[m[31mi[ml[md[mc[ma[mr[md[ms[m"[m)[m;[m
+[m[33m    34: [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m\[mt[ms[mt[mr[m[31mi[mn[mg[m [mm[mu[ms[mt[m [mc[mo[mn[mt[ma[m[31mi[mn[me[md[m [mw[m[31mi[mt[mh[m[31mi[mn[m [ma[m [ml[m[31mi[mn[me[m,[m"[m)[m;[m
+[m[33m    35: [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m\[mt[m\[mt[m[31mi[mt[m [mw[m[31mi[ml[ml[m [mb[me[m [m[31mi[mg[mn[mo[mr[me[md[m [m[31mi[mf[m [mt[me[mx[mt[m [m[31mi[ms[m [mw[mr[ma[mp[me[md[m [mt[mo[m [mn[me[mx[mt[m [ml[m[31mi[mn[me[m"[m)[m;[m
+[m[33m    36: [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m\[mt[mf[m[31mi[ml[me[mn[ma[mm[me[m [mm[mu[ms[mt[m [mb[me[m [mv[ma[ml[m[31mi[md[m"[m)[m;[m
+[m[33m    37: [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m"[m)[m;[m
+[m[33m    40: [m/[m/[m [mo[mp[me[mn[m [mf[m[31mi[ml[me[m [mf[m[31mi[ml[me[mn[ma[mm[me[m [ma[mn[md[m [mr[me[mt[mu[mr[mn[m [mp[mo[m[31mi[mn[mt[me[mr[m
+[m[33m    41: [mF[mI[mL[mE[m*[m [mo[mp[me[mn[mf[m[31mi[ml[me[m([mc[mo[mn[ms[mt[m [mc[mh[ma[mr[m [m*[m [mf[m[31mi[ml[me[m_[mn[ma[mm[me[m)[m{[m
+[m[33m    43: [m [m [mf[mp[mt[mr[m [m=[m [mf[mo[mp[me[mn[m([mf[m[31mi[ml[me[m_[mn[ma[mm[me[m,[m [m"[mr[m"[m)[m;[m
+[m[33m    45: [m [m [m[31mi[mf[m([mf[mp[mt[mr[m [m=[m=[m [mN[mU[mL[mL[m)[m{[m
+[m[33m    46: [m [m [m [m [mf[mp[mr[m[31mi[mn[mt[mf[m([ms[mt[md[me[mr[mr[m,[m"[m\[me[m[[m3[m1[mm[mE[mR[mR[mO[mR[m:[m\[me[m[[mm[m [mU[mn[ma[mb[ml[me[m [mt[mo[m [mo[mp[me[mn[m [mf[m[31mi[ml[me[m:[m [m"[m)[m;[m
+[m[33m    47: [m [m [m [m [mf[mp[mr[m[31mi[mn[mt[mf[m([ms[mt[md[me[mr[mr[m,[m [m"[m\[me[m[[m3[m3[mm[m%[ms[m\[mn[m\[me[m[[mm[m"[m,[m [mf[m[31mi[ml[me[m_[mn[ma[mm[me[m)[m;[m
+[m[33m    48: [m [m [m [m [mf[mp[mr[m[31mi[mn[mt[mf[m([ms[mt[md[me[mr[mr[m,[m [m"[m\[mn[m\[mt[mf[m[31mi[ml[me[m([m)[m [me[mr[mr[mo[mr[m [mo[mn[m [m%[ms[m:[m [m%[ms[m\[mn[m"[m,[m [mf[m[31mi[ml[me[m_[mn[ma[mm[me[m,[m
+[m[33m    50: [m [m [m [m [m [m [m [m [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m\[me[m[[mm[mV[ma[ml[m[31mi[md[m [mo[mp[mt[m[31mi[mo[mn[ms[m [ma[mr[me[m:[m [mg[mr[me[mp[m"[m)[m;[m
+[m[33m    51: [m [m [m [m [m [m [m [m [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[me[m[[m3[m3[mm[m [m<[ms[mt[mr[m[31mi[mn[mg[m>[m [m<[mf[m[31mi[ml[me[mn[ma[mm[me[m>[m\[me[m[[mm[m\[mn[m"[m)[m;[m
+[m[33m    52: [m [m [m [m [m [m [m [m [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m\[mt[ms[mt[mr[m[31mi[mn[mg[m [m[31mi[ms[m [ml[m[31mi[mt[me[mr[ma[ml[m,[m [mo[mn[ml[my[m [me[mx[ma[mc[mt[m [ms[mt[mr[m[31mi[mn[mg[m [mm[ma[mt[mc[mh[me[ms[m,[m"[m)[m;[m
+[m[33m    53: [m [m [m [m [m [m [m [m [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m [mn[mo[m [mw[m[31mi[ml[md[mc[ma[mr[md[ms[m"[m)[m;[m
+[m[33m    54: [m [m [m [m [m [m [m [m [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m\[mt[ms[mt[mr[m[31mi[mn[mg[m [mm[mu[ms[mt[m [mc[mo[mn[mt[ma[m[31mi[mn[me[md[m [mw[m[31mi[mt[mh[m[31mi[mn[m [ma[m [ml[m[31mi[mn[me[m"[m)[m;[m
+[m[33m    55: [m [m [m [m [m [m [m [m [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m\[mt[m\[mt[m[31mi[mt[m [mw[m[31mi[ml[ml[m [mb[me[m [m[31mi[mg[mn[mo[mr[me[md[m [m[31mi[mf[m [mt[me[mx[mt[m [m[31mi[ms[m [mw[mr[ma[mp[me[md[m [mt[mo[m [mn[me[mx[mt[m [ml[m[31mi[mn[me[m"[m)[m;[m
+[m[33m    56: [m [m [m [m [m [m [m [m [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m\[mt[m\[me[m[[m3[m1[mm[mf[m[31mi[ml[me[mn[ma[mm[me[m [mm[mu[ms[mt[m [mb[me[m [mv[ma[ml[m[31mi[md[m\[me[m[[mm[m"[m)[m;[m
+[m[33m    57: [m [m [m [m [m [m [m [m [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mn[m"[m)[m;[m
+[m[33m    63: [m[31mi[mn[mt[m [mm[ma[m[31mi[mn[m([m[31mi[mn[mt[m [ma[mr[mg[mv[m,[m [mc[mh[ma[mr[m [m*[m [ma[mr[mg[mc[m [m[[m][m)[m{[m
+[m[33m    64: [m [m [m[31mi[mn[mt[m [me[mr[mr[mo[mr[m [m=[m [m0[m,[m [ms[mt[mr[m[31mi[mn[mg[m_[mf[mo[mu[mn[md[m [m=[m [m0[m;[m
+[m[33m    65: [m [m [m/[m/[m [m[31mi[mn[mt[m [mE[mO[mF[m_[mf[ml[ma[mg[m [m=[m [m0[m;[m
+[m[33m    66: [m [m [ml[mo[mn[mg[m [ml[mo[mn[mg[m [mu[mn[ms[m[31mi[mg[mn[me[md[m [m[31mi[mn[mt[m [ml[m[31mi[mn[me[m_[mn[mu[mm[mb[me[mr[m [m=[m [m1[m;[m
+[m[33m    67: [m [m [mc[mh[ma[mr[m [mc[mu[mr[me[mn[mt[m_[ml[m[31mi[mn[me[m[[mM[mA[mX[m_[mL[mI[mN[mE[m_[mS[mI[mZ[mE[m][m;[m
+[m[33m    68: [m [m [mc[mh[ma[mr[m [m*[m [ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m [m=[m [ma[mr[mg[mc[m[[m1[m][m;[m
+[m[33m    70: [m [m [m[31mi[mf[m([ma[mr[mg[mv[m [m![m=[m [m3[m)[m{[m [m/[m/[m[31mi[mf[m [mw[mr[mo[mn[mg[m [mn[mu[mm[mb[me[mr[m [mo[mf[m [m[31mi[mn[mp[mu[mt[ms[m
+[m[33m    71: [m [m [m [m [md[m[31mi[ms[mp[ml[ma[my[mB[ma[md[mI[mn[mp[mu[mt[mM[me[ms[ms[ma[mg[me[m([ma[mr[mg[mv[m,[m [ma[mr[mg[mc[m)[m;[m
+[m[33m    74: [m [m [m}[m [me[ml[ms[me[m [m{[m [m/[m/[mp[mo[ms[ms[m[31mi[mb[ml[my[m [mg[mo[mo[md[m [m[31mi[mn[mp[mu[mt[m
+[m[33m    75: [m [m [m [m [mF[mI[mL[mE[m [m*[m [mf[mp[mt[mr[m [m=[m [mo[mp[me[mn[mf[m[31mi[ml[me[m([ma[mr[mg[mc[m[[m2[m][m)[m;[m
+[m[33m    76: [m [m [m [m [m[31mi[mf[m([mf[mp[mt[mr[m [m![m=[m [mN[mU[mL[mL[m)[m{[m [m [m [m [m/[m/[m[31mi[mf[m [mv[ma[ml[m[31mi[md[m [mf[m[31mi[ml[me[m
+[m[33m    78: [m [m [m [m [m [m [m/[m/[mw[mh[m[31mi[ml[me[m [mc[ma[mn[m [mg[me[mt[m [mn[me[mx[mt[m [ml[m[31mi[mn[me[m
+[m[33m    79: [m [m [m [m [m [m [mw[mh[m[31mi[ml[me[m([mf[mg[me[mt[ms[m([mc[mu[mr[me[mn[mt[m_[ml[m[31mi[mn[me[m,[m [mM[mA[mX[m_[mL[mI[mN[mE[m_[mS[mI[mZ[mE[m,[m [mf[mp[mt[mr[m [m)[m![m=[mN[mU[mL[mL[m)[m{[m
+[m[33m    81: [m [m [m [m [m [m [m [m [m/[m/[m [m[31mi[mf[m [ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m [m[31mi[ms[m [m[31mi[mn[m [mc[mu[mr[me[mn[mt[m_[ml[m[31mi[mn[me[m
+[m[33m    82: [m [m [m [m [m [m [m [m [m[31mi[mf[m([ms[mt[mr[ms[mt[mr[m([mc[mu[mr[me[mn[mt[m_[ml[m[31mi[mn[me[m,[m [ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m)[m![m=[m [mN[mU[mL[mL[m)[m [m{[m
+[m[33m    84: [m [m [m [m [m [m [m [m [m [m [m/[m/[mp[mr[m[31mi[mn[mt[m [ml[m[31mi[mn[me[m [mn[mu[mm[mb[me[mr[m [mw[m[31mi[mt[mh[m [mc[mo[ml[mo[mr[m.[m.[m.[ms[m[31mi[mm[mp[ml[me[m [mc[mo[md[me[m [mw[mo[mu[ml[md[m [mp[mr[m[31mi[mn[mt[m [mw[mh[mo[ml[me[m [ml[m[31mi[mn[me[m
+[m[33m    85: [m [m [m [m [m [m [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[me[m[[m3[m3[mm[m%[m6[ml[ml[mu[m:[m [m\[me[m[[mm[m"[m,[m [ml[m[31mi[mn[me[m_[mn[mu[mm[mb[me[mr[m)[m;[m
+[m[33m    87: [m [m [m [m [m [m [m [m [m [m [m/[m/[mn[mo[mt[m [ms[m[31mi[mm[mp[ml[me[m [mc[mo[md[me[m [mh[m[31mi[mg[mh[ml[m[31mi[mg[mh[mt[ms[m [ms[mt[mr[m[31mi[mn[mg[m
+[m[33m    88: [m [m [m [m [m [m [m [m [m [m [m[31mi[mn[mt[m [m[31mi[m=[m0[m,[m [mj[m=[m0[m,[m [mf[ml[ma[mg[m=[m0[m;[m [m/[m/[mf[ml[ma[mg[m [m=[m [m1[m+[m [mw[mh[me[mn[m [mp[mr[m[31mi[mn[mt[m[31mi[mn[mg[m [ms[mu[mb[ms[mt[mr[m[31mi[mn[mg[m
+[m[33m    89: [m [m [m [m [m [m [m [m [m [m [ms[mt[mr[m[31mi[mn[mg[m_[mf[mo[mu[mn[md[m [m=[m [m1[m;[m
+[m[33m    91: [m [m [m [m [m [m [m [m [m [m [m/[m/[m[31mi[mt[me[mr[ma[mt[me[m [ma[mc[mc[mr[mo[ms[ms[m [ml[m[31mi[mn[me[m [mf[mr[mo[mm[m [mf[m[31mi[ml[me[m
+[m[33m    92: [m [m [m [m [m [m [m [m [m [m [mf[mo[mr[m([m[31mi[m [m=[m [m0[m;[m [m[31mi[m [m<[m [ms[mt[mr[ml[me[mn[m([mc[mu[mr[me[mn[mt[m_[ml[m[31mi[mn[me[m)[m;[m [m[31mi[m+[m+[m [m)[m{[m
+[m[33m    94: [m [m [m [m [m [m [m [m [m [m [m [m [m/[m/[m[31mi[mf[m [mp[mo[ms[ms[m[31mi[mb[ml[me[m [ms[mt[ma[mr[mt[m [mo[mf[m [ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m [ms[mu[mb[ms[mt[mr[m[31mi[mn[mg[m [m[31mi[mn[m [mc[mu[mr[me[mn[mt[m_[ml[m[31mi[mn[me[m
+[m[33m    95: [m [m [m [m [m [m [m [m [m [m [m [m [m[31mi[mf[m([mc[mu[mr[me[mn[mt[m_[ml[m[31mi[mn[me[m[[m[31mi[m][m [m=[m=[m [ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m[[m0[m][m)[m{[m
+[m[33m    96: [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m/[m/[mc[mh[me[mc[mk[m [mf[mo[mr[m [mr[me[ms[mt[m [mo[mf[m [ms[mu[mb[ms[mt[mr[m[31mi[mn[mg[m
+[m[33m    97: [m [m [m [m [m [m [m [m [m [m [m [m [m [m [mf[mo[mr[m([mj[m [m=[m [m0[m;[m [mj[m [m<[m [ms[mt[mr[ml[me[mn[m([ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m)[m;[m [mj[m+[m+[m)[m{[m
+[m[33m    99: [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m[31mi[mf[m([m([m[31mi[mn[mt[m)[mc[mu[mr[me[mn[mt[m_[ml[m[31mi[mn[me[m[[m[31mi[m [m+[m [mj[m][m [m=[m=[m [m([m[31mi[mn[mt[m)[ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m[[mj[m][m)[m
+[m[33m   101: [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m[31mi[mf[m([mj[m+[m1[m [m=[m=[m [ms[mt[mr[ml[me[mn[m([ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m)[m)[m{[m [m/[m/[m[31mi[mf[m [ms[mt[mr[m[31mi[mn[mg[m [mm[ma[mt[mc[mh[me[md[m
+[m[33m   103: [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [m [mf[ml[ma[mg[m [m=[m [ms[mt[mr[ml[me[mn[m([ms[mt[mr[m[31mi[mn[mg[m_[m[31mi[mn[mp[mu[mt[m)[m;[m
+[m[33m   108: [m [m [m [m [m [m [m [m [m [m [m [m [m[31mi[mf[m([mf[ml[ma[mg[m)[m{[m
+[m[33m   109: [m [m [m [m [m [m [m [m [m [m [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[me[m[[m3[m1[mm[m"[m)[m;[m
+[m[33m   112: [m [m [m [m [m [m [m [m [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m%[mc[m\[me[m[[mm[m"[m,[m [mc[mu[mr[me[mn[mt[m_[ml[m[31mi[mn[me[m[[m[31mi[m][m)[m;[m
+[m[33m   115: [m [m [m [m [m [m [m [m [ml[m[31mi[mn[me[m_[mn[mu[mm[mb[me[mr[m+[m+[m;[m
+[m[33m   117: [m [m [m [m [m}[m/[m/[m [m[31mi[mf[m([mf[mp[mt[mr[m [m![m=[m [mN[mU[mL[mL[m)[m [mv[ma[ml[m[31mi[md[m [mf[m[31mi[ml[me[m
+[m[33m   118: [m [m [m}[m [m [m/[m/[m [me[ml[ms[me[m [m [m-[m-[m>[m [mg[mo[mo[md[m[31mi[ms[mh[m [m[31mi[mn[mp[mu[mt[m
+[m[33m   119: [m [m [m[31mi[mf[m([m![ms[mt[mr[m[31mi[mn[mg[m_[mf[mo[mu[mn[md[m)[m
+[m[33m   120: [m [m [m [m [mp[mr[m[31mi[mn[mt[mf[m([m"[m\[mt[m\[me[m[[m3[m3[mm[m%[ms[m\[me[m[[mm[m [mw[ma[ms[m [mn[mo[mt[m [mf[mo[mu[mn[md[m [m[31mi[mn[m [m\[me[m[[m3[m3[mm[m%[ms[m\[me[m[[mm[m\[mn[m"[m,[m [ma[mr[mg[mc[m[[m1[m][m,[m [ma[mr[mg[mc[m[[m2[m][m)[m;[m
+[mdiamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ ./bin/grep i grep.c[1P grep.ci grep.cn grep.cs grep.ca grep.cn grep.ce grep.c
+	[33minsane[m was not found in [33mgrep.c[m
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ exit
+exit
+
+Script done on Mon 11 Dec 2017 07:26:20 PM CST

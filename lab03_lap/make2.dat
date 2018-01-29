@@ -1,0 +1,141 @@
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ script make.dat
+Script started, file is make.dat
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+bin: mkdir bin
+ls.o: gcc -c -Wall ls.c
+find.o: gcc -c -Wall find.c
+grep.o: gcc -c -Wall grep.c
+all: cc -Wall ls.o -o bin/ls
+cc -Wall find.o -o bin/find
+cc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+rm -r bin
+rm *.o
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make bin
+bin: mkdir bin
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+rm -r bin
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls.o
+ls.o: gcc -c -Wall ls.c
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+rm *.o
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls.o
+ls.o: gcc -c -Wall ls.c
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+bin: mkdir bin
+find.o: gcc -c -Wall find.c
+grep.o: gcc -c -Wall grep.c
+all: cc -Wall ls.o -o bin/ls
+cc -Wall find.o -o bin/find
+cc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls.o
+make: 'ls.o' is up to date.
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+rm -r bin
+rm *.o
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make grep
+grep.o: gcc -c -Wall grep.c
+bin: mkdir bin
+grep: cc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make find.o
+find.o: gcc -c -Wall find.c
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make find
+find: cc -Wall find.o -o bin/find
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls.o
+ls.o: gcc -c -Wall ls.c
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+all: cc -Wall ls.o -o bin/ls
+cc -Wall find.o -o bin/find
+cc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ exit
+exit
+Script done, file is make.dat
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+all:       cc -Wall ls.o -o bin/ls
+           cc -Wall find.o -o bin/find
+           cc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls.o
+make: 'ls.o' is up to date.
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+           rm -r bin
+           rm *.o
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls
+ls.o:      gcc -c -Wall ls.c
+bin:       mkdir bin
+ls:        cc -Wall ls.o -o bin/ls
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ script make.dat
+Script started, file is make.dat
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+           rm -r bin
+           rm *.o
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+bin:       mkdir bin
+ls.o:      gcc -c -Wall ls.c
+find.o:    gcc -c -Wall find.c
+grep.o:    gcc -c -Wall grep.c
+all:       cc -Wall ls.o -o bin/ls
+           cc -Wall find.o -o bin/find
+           cc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+           rm -r bin
+           rm *.o
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls.o
+ls.o:      gcc -c -Wall ls.c
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls
+bin:       mkdir bin
+ls:        cc -Wall ls.o -o bin/ls
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make grep
+grep.o:    gcc -c -Wall grep.c
+grep:      cc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+           rm -r bin
+           rm *.o
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make grep
+grep.o:    gcc -c -Wall grep.c
+bin:       mkdir bin
+grep:      cc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+ls.o:      gcc -c -Wall ls.c
+find.o:    gcc -c -Wall find.c
+all:       cc -Wall ls.o -o bin/ls
+           cc -Wall find.o -o bin/find
+           cc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+           rm -r bin
+           rm *.o
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make ls.o
+ls.o:      gcc -c -Wall ls.c
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make find.o grep.o
+find.o:    gcc -c -Wall find.c
+grep.o:    gcc -c -Wall grep.c
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+bin:       mkdir bin
+all:       cc -Wall ls.o -o bin/ls
+           cc -Wall find.o -o bin/find
+           cc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make
+all:       cc -Wall ls.o -o bin/ls
+           cc -Wall find.o -o bin/find
+           cc -Wall grep.o -o bin/grep
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+           rm -r bin
+           rm *.o
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ make clean
+MADE CLEAN!
+diamo069@csel-kh4250-23:/home/diamo069/Documents/3081_F17/repo-diamo069/4061/labs/lab03_lap $ exit
+exit
+Script done, file is make.dat
