@@ -1,3 +1,4 @@
+// https://github.com/CorwinDiamond/Portfolio/blob/master/google/stemfestJudgingAlgorithm.js
 var userProperties = PropertiesService.getUserProperties();
 
 // Create menu visible in Google Sheets
