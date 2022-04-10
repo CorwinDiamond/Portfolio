@@ -127,13 +127,33 @@ function scoreJudging() {
 
 // Get the data necessary from the form response to populate the teams scores from judges. This function handles a single row
 function getScoresRow(responseSheet, r) {
-  var returnObject = {teamName:false, judge:false, generalPoints:false, specificPoints:false, possibleGeneralPoints:false, possibleSpecificPoints:false, grade:false, comment:"", row:r};
+  var returnObject = {
+    teamName:false, 
+    judge:false, 
+    generalPoints:false, 
+    specificPoints:false, 
+    possibleGeneralPoints:false, 
+    possibleSpecificPoints:false, 
+    grade:false, 
+    comment:"", 
+    row:r
+  };
 
   returnObject.judge = responseSheet.getRange(r,2).getValue()
-  returnObject.teamName = responseSheet.getRange(r,4).getValue() + responseSheet.getRange(r,5).getValue() + responseSheet.getRange(r,6).getValue() + responseSheet.getRange(r,7).getValue();
+  returnObject.teamName = responseSheet.getRange(r,4).getValue() + responseSheet.getRange(r,5).getValue() 
+    + responseSheet.getRange(r,6).getValue() + responseSheet.getRange(r,7).getValue();
   returnObject = getProjectTypeAndScore(responseSheet, r, returnObject);
   Logger.log(returnObject)
-  // example returnObject = {teamName:"John Doe", judge:"Dredd", generalPoints:2, specificPoints:1, possibleGeneralPoints:2, possibleSpecificPoints:3, grade:"A", comment:"Test"};
+  // example returnObject = { // used for testing
+  //    teamName:"John Doe", 
+  //    judge:"Dredd", 
+  //    generalPoints:2, 
+  //    specificPoints:1, 
+  //    possibleGeneralPoints:2, 
+  //    possibleSpecificPoints:3, 
+  //    grade:"A", 
+  //    comment:"Test"
+  // };
   return returnObject;
 }
 
